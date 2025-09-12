@@ -75,13 +75,13 @@ h2 {
 }
 
 .story_item:nth-child(1) {
-  background-image: url(/images/bitmap1.jpg);
+  background-image: url(../images/bitmap1.jpg);
 }
 .story_item:nth-child(2) {
-  background-image: url(/images/bitmap2.jpg);
+  background-image: url(../images/bitmap2.jpg);
 }
 .story_item:nth-child(3) {
-  background-image: url(/images/bitmap3.jpg);
+  background-image: url(../images/bitmap3.jpg);
   margin-right: 0;
 }
 
