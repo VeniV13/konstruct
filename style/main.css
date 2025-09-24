@@ -132,7 +132,7 @@ h2 {
 .story_item {
   text-align: center;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 800;
   color: white;
   width: 140px;
@@ -140,6 +140,7 @@ h2 {
   margin-right: 20px;
   padding: 20px;
   text-align: left;
+  writing-mode: vertical-rl
 }
 
 .story_item:nth-child(1) {
@@ -204,7 +205,7 @@ h2 {
 }
 .capabilities_card {
   width: 295px;
-  height: 330px;
+  height: 400px;
   border: 1px solid rgba(230, 230, 230, 1);
   padding: 0 30px;
 }
@@ -339,6 +340,12 @@ h2 {
   justify-content: space-between;
   margin-top: 15px;
   gap: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer_item--adress--list a {
+  color: #ffffff;
 }
 
 .footer_item--socialmedia {
